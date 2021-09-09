@@ -1,0 +1,57 @@
+@media screen and (max-width: 400px) {
+    /* put image preview close button to left */
+    .is-mobile .detail--xd .detail__close {
+        right: unset !important;
+        left: 10px !important;
+    }
+
+    /* reverse the order of buttons on search bar */
+    .search__clear, .search__button, .search__button--hero {
+        right: unset !important;
+        left: 46px !important;
+    } 
+    .is-mobile .search--adv {
+        padding-left: 6em !important;
+        padding-right: 15px !important;
+    } 
+    .is-mobile .search__button, .is-mobile .search__button--hero {
+        right: unset !important;
+        left: 0px !important;
+        transform: scaleX(-1);
+    }  
+    .is-mobile .search--adv.has-text::after {
+        right: unset !important;
+        left: 46px !important;
+    }
+
+    /* flip order of settings and menu buttons */
+    .is-mobile .body--serp .header--aside, .is-mobile .body--home .header--aside {
+        left: unset !important;
+        right: 0 !important;
+    }  
+    .is-mobile .header-wrap > .dropdown--settings, .is-mobile .header-wrap--home > .dropdown--settings {
+        right: unset !important;
+        left: 24px;
+    }
+    .header--aside__social {
+        margin-left: unset !important;
+        margin-right: 25px;
+    }
+    .is-mobile .header--aside__item.social {
+        left: unset !important;
+        right: 30px;
+        transform: scaleX(-1);
+    }
+    .is-mobile .header--aside__item.social .modal__box {
+        transform: scaleX(-1);
+    }
+
+    /* close button on bottom banner should be on the left */
+    .atb-banner__bottom .atb-banner__close {
+        right: unset !important;
+        left: 0 !important;
+    }  
+    .atb-banner__bottom {
+        padding-left: 10.5vw !important;
+    }    
+}

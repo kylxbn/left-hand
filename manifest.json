@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Left hand",
+    "version": "1.0",
+  
+    "description": "Adapts pages to help left-handed users navigate pages",
+
+
+    "content_scripts": [
+      {
+        "matches": ["*://duckduckgo.com/*", "*://start.duckduckgo.com/*"],
+        "css": ["css/duckduckgo.css"]
+      }
+    ]
+
+  }
